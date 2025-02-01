@@ -51,3 +51,10 @@ function displayPlaylists(){
         const playlistDiv = document.createElement('div');
         playlistDiv.classList.add("playlist");
 
+
+        //Create the guardians named playlist
+        const guardianTitle = document.createElement("h3");
+        guardianTitle.textContent = `${guardian}'s Playlist`;
+        playlistDiv.appendChild(guardianTitle);
+
+
