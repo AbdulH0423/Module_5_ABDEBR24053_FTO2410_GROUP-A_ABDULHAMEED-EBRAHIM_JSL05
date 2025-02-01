@@ -93,3 +93,6 @@ function displayPlaylists(){
     });
 };
 
+// Call function and display the playlists for each Guardian
+displayPlaylists(); 
+
