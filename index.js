@@ -58,3 +58,16 @@ function displayPlaylists(){
         playlistDiv.appendChild(guardianTitle);
 
 
+//ADD the songs
+    /*const songList = document.createElement("ul");
+    playlist.forEach(song => {
+        const songItem = document.createElement("li");
+        songItem.textContent = `${song.title} by ${song.artist}`;
+        songList.appendChild(songItem);
+    });*/
+
+    const songList = document.createElement("ul");
+    playlist.forEach(song =>{
+        const songItem = document.createElement("li");
+
+
