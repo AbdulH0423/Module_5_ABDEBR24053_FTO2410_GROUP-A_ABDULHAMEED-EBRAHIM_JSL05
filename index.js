@@ -40,7 +40,14 @@ function generatePlaylist(guardians, songs) {
     }));
 }
 
-// Call generatePlaylist and display the playlists for each Guardian
-generatePlaylist(guardians, songs);
+//function to create and append playlists:
 
+function displayPlaylists(){
+    const playlistsDiv = document.getElementById("playlists");
+    const playlists = generatePlaylist(guardians, songs);
+
+
+    playlists.forEach(({guardian,playlist}) =>{
+        const playlistDiv = document.createElement('div');
+        playlistDiv.classList.add("playlist");
 
