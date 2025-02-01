@@ -71,3 +71,10 @@ function displayPlaylists(){
         const songItem = document.createElement("li");
 
 
+        //Span for the title
+
+        const songTitle = document.createElement("span");
+        songTitle.textContent = song.title;
+        songTitle.classList.add("song-title"); //adding the class for styling
+
+
