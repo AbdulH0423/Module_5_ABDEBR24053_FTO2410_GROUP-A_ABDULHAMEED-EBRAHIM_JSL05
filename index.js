@@ -78,3 +78,18 @@ function displayPlaylists(){
         songTitle.classList.add("song-title"); //adding the class for styling
 
 
+        const songArtist = document.createTextNode(` by ${song.artist}`);
+
+
+        songItem.appendChild(songTitle);
+        songItem.appendChild(songArtist);
+        songList.appendChild(songItem);
+    });
+    
+    
+    playlistDiv.appendChild(songList);
+    playlistsDiv.appendChild(playlistDiv);
+    
+    });
+};
+
