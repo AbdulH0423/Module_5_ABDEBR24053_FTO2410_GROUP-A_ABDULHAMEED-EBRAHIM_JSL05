@@ -10,7 +10,12 @@ const songs = [
     { title: "Ain't No Mountain High Enough", artist: "Marvin Gaye & Tammi Terrell", genre: "R&B" },
     { title: "Come and Get Your Love", artist: "Redbone", genre: "Rock" },
     { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
-    { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
+    { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" }, 
+    { title: "If I die young", artist: "The Band Perry", genre: "Pop" },
+    { title: "Shake it off", artist: "Mariah Carey", genre: "R&B" },
+    { title: "Everglow", artist: "Coldplay", genre: "Rock" },
+    { title: "Home", artist: "Edward Sharpe & the Magnetic Zeros", genre: "Rock" },
+    { title: "Torn", artist: "LeToya", genre: "R&B" }
     // Feel free to add even more songs
 ];
 
